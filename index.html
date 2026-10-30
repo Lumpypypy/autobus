@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeu de l'Autobus</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Jeu de l'Autobus</h1>
+    <div id="game-board">
+        <div class="pile" id="pile-1"></div>
+        <div class="pile" id="pile-2"></div>
+        <div class="pile" id="pile-3"></div>
+        <div class="pile" id="pile-4"></div>
+        <div class="pile" id="pile-5"></div>
+        <div id="cursor"></div>
+    </div>
+    <div id="controls">
+        <button id="rouge">Rouge</button>
+        <button id="noir">Noir</button>
+        <button id="plus">Plus</button>
+        <button id="moins">Moins</button>
+        <button id="egal">Égal</button>
+    </div>
+    <div id="score">
+        Gorgées à boire : <span id="gorgees">0</span><br>
+        Poteaux : <span id="poteaux">0</span>
+    </div>
+    <div id="card-count">Cartes restantes : <span id="remaining-cards">0</span></div>
+    <div id="history">
+        <h2>Historique des cartes jouées</h2>
+        <ul id="card-history"></ul>
+    </div>
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span id="popup-message"></span>
+            <button id="close-popup">Fermer</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

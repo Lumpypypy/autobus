@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #333;
+}
+
+#controls {
+    margin-top: 20px;
+}
+
+#controls label {
+    margin-right: 10px;
+}
+
+#controls input, #controls select {
+    padding: 5px;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+#controls button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#controls button:hover {
+    background-color: #45a049;
+}
+
+#results {
+    margin-top: 20px;
+    text-align: left;
+}
+
+#resultsTable {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+#resultsTable th, #resultsTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#resultsTable th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+#resultsTable tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#summary {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#summaryTable {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 50%;
+}
+
+#summaryTable th, #summaryTable td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#summaryTable th {
+    background-color: #f2f2f2;
+    text-align: left;
+}
+
+#summaryTable tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
